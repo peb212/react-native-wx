@@ -16,6 +16,6 @@ android {
 
 dependencies {
   compile 'com.facebook.react:react-native:+'
-  compile 'com.tencent.mm.opensdk:wechat-sdk-android-with-mta:+'
+  compile files('libs/wechat-sdk-android-without-mta.jar')
 }
 
